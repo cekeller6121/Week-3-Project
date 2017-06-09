@@ -1,0 +1,60 @@
+.calc-container {
+  border: 1px solid Black;
+  border-radius: 5px;
+  height: 500px;
+  margin: 50px;
+  width: 400px;
+}
+
+.clear-display-container {
+  border-collapse: collapse;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+output.output {
+  height: 100px;
+  width: 300px;
+}
+
+#clear-button {
+  font-size: 20px;
+}
+
+.button {
+  background-color: CadetBlue;
+  color: Maroon;
+  font-family: Helvetica;
+  font-size: 30px;
+  height: 100px;
+  width: 100px;
+}
+
+.button:hover {
+  background-color: Orange;
+}
+
+.button:active {
+  box-shadow: 2 10px Black;
+}
+
+.row-1-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.row-2-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.row-3-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.row-4-container {
+  display: flex;
+  flex-direction: row;
+}
