@@ -161,15 +161,19 @@ equals_button.addEventListener('click', function equalsClick() {
   if (flagAdd === true) {
     result = values1 + values2;
     console.log(result);
+    document.getElementById('output').innerHTML = result;
   } else if (flagMinus === true) {
     result = values1 - values2;
     console.log(result);
+    document.getElementById('output').innerHTML = result;
   } else if (flagMultiply === true) {
     result = values1 * values2;
     console.log(result);
+    document.getElementById('output').innerHTML = result;
   } else if (flagDivide === true) {
     result = values1 / values2;
     console.log(result);
+    document.getElementById('output').innerHTML = result;
   }
 });
 
