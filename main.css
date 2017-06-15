@@ -10,11 +10,16 @@
   border-collapse: collapse;
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 400px;
 }
 
 output.output {
+  background-color: LightGray;
+  color: Maroon;
+  font-family: Helvetica;
+  font-size: 60px;
   height: 100px;
+  text-align: right;
   width: 300px;
 }
 
@@ -24,6 +29,7 @@ output.output {
 
 .button {
   background-color: CadetBlue;
+  border-radius: 5px;
   color: Maroon;
   font-family: Helvetica;
   font-size: 30px;
