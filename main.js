@@ -175,7 +175,7 @@ nine_button.addEventListener('click', function nineClick() {
 
 clear_button.addEventListener('click', function clearAll () {
   console.log("clear button click");
-  location.reload();
+  location.reload(); // Reloads the page...pure laziness :) 
 });
 
 equals_button.addEventListener('click', function equalsClick() {
