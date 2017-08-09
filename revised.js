@@ -5,10 +5,9 @@ console.log("revised.js file connected");
 var calcButtons = document.querySelectorAll(".button");
 for (i = 0; i < calcButtons.length; i++) {
         calcButtons[i].addEventListener("click", function(event) {
-            console.log(event.target.value);
+              console.log(event.target.value);
         });
 };
-
 
 
 
