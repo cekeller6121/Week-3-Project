@@ -52,6 +52,41 @@ var clear_button = document.getElementById('clear-button');
 
 // *** Number button event listeners ***
 
+// *** code revision block:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// *** code revision block ^ ***
+
 zero_button.addEventListener('click', function zeroClick () {
   console.log("zero button click");
   let zero_button = 0;
@@ -175,7 +210,7 @@ nine_button.addEventListener('click', function nineClick() {
 
 clear_button.addEventListener('click', function clearAll () {
   console.log("clear button click");
-  location.reload(); // Reloads the page...pure laziness :) 
+  location.reload(); // Reloads the page...pure laziness :)
 });
 
 equals_button.addEventListener('click', function equalsClick() {
