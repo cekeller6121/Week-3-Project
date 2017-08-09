@@ -52,41 +52,6 @@ var clear_button = document.getElementById('clear-button');
 
 // *** Number button event listeners ***
 
-// *** code revision block:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// *** code revision block ^ ***
-
 zero_button.addEventListener('click', function zeroClick () {
   console.log("zero button click");
   let zero_button = 0;
